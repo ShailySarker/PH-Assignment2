@@ -201,13 +201,12 @@
 }
 
 .image-exp {
-    background-color: #FF900E;
-    padding: 35px 45px;
-    position: absolute;
-    margin: -87px 230px 30px -65px;
-    border-radius: 8px;
     text-align: center;
-
+    position: absolute;
+    margin: -85px 230px 30px -65px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 35px 45px;
 }
 
 .image-exp h3 {
@@ -348,10 +347,13 @@
     color: #727272;
     padding: 0 450px 50px 450px;
 }
-
+.sponsor-group-list{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+}
 .sponsor-group-list img {
-    align-items: center;
-    padding: 20px 50px 100px 50px;
+    
+    padding: 20px 0 100px 0;
 }
 
 
@@ -390,14 +392,17 @@
         gap: 10px;
 
     }
-
+    .nav-title{
+        font-size: 25px;
+    }
     .banner-title,
     .banner-des {
-        padding: 30px 10px;
-
+        padding: 20px 15px;
 
     }
-
+    .banner-title{
+        font-size: 60px;
+    }
     .banner-info .image {
         width: 100%;
     }
@@ -407,7 +412,10 @@
         text-align: center;
         flex-direction: column-reverse;
     }
-
+    
+    .list-feature-title{
+        padding: 30px 20px;
+    }
     .list-feature-images {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -441,10 +449,7 @@
         font-weight: 400;
         font-size: 20px;
     }
-    /* .nav-tab {
-        
-        flex-direction: column;
-    } */
+    
     .management-info{
         padding: 170px 20px 20px;
     }
@@ -452,15 +457,44 @@
         flex-direction: column;
         padding: 0 15px;
     }
-    
-    .some-fact,
-    .sponsors-group-container,
-    .footer,
-    list-feature {
-        display: none;
+    .fact-container,.fact-des {
+        margin: 0;
+        padding: 15px 15px 35px;
+        text-align: center;
     }
-
-
+    .fact-title{
+        padding-top: 30px;
+        padding-bottom: 10px ;
+    }
+    .fact-items {
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+    .sponsor-des{
+        padding: 0 15px;
+    }
+    .sponsor-group-list{
+        grid-template-columns: repeat(3,.6fr);
+        
+    }
+    .sponsor-des {
+        padding: 10px 20px 40px;
+    }
+    .sponsor-group-list img{
+        width: 40%;
+        padding: 10px;
+    }
+    .footer{
+     
+        margin: 70px 30px 80px;
+        padding: 15px;
+        
+    }
+    
+    .footer-info{
+        font-size: 15px;
+    }
 }
 
 
