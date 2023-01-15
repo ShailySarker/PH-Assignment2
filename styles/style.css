@@ -114,6 +114,7 @@
     height: 250px;
     /* width:100%; */
 }
+
 .list-feature-title {
     font-weight: 700;
     font-size: 45px;
@@ -225,41 +226,48 @@
      management team part style 
 -----------------------------------*/
 
-.management{
+.management {
     text-align: center;
 }
-.management-info{
-    padding:200px 150px 150px;
+
+.management-info {
+    padding: 200px 150px 150px;
 }
-.management-title{
+
+.management-title {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
     padding-bottom: 35px;
 }
-.management-des{
+
+.management-des {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
 }
-.management-team{
+
+.management-team {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-.management-team-name{
+
+.management-team-name {
     font-weight: 700;
     font-size: 25px;
     color: #131313;
     padding-top: 25px;
     padding-bottom: 10px;
 }
-.management-team-deg{
+
+.management-team-deg {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
 }
-.management-team-all img{
+
+.management-team-all img {
     width: 100%;
     border-radius: 10px;
 }
@@ -351,16 +359,111 @@
             footer part style
 -------------------------------------- */
 
-.footer{
+.footer {
     background: #FFF4E7;
     border-radius: 10px;
     margin: 40px 120px 80px;
     padding: 40px;
-    
+
 }
-.footer-info{
+
+.footer-info {
     text-align: center;
     font-weight: 400;
     font-size: 20px;
     color: #424242;
 }
+
+
+/*---------------------------
+     make responsive 
+-------------------------------*/
+
+/*---------------------------
+     for mobile device
+-------------------------------*/
+@media screen and (max-width: 576px) {
+
+    .nav,
+    .nav-tab ul {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .banner-title,
+    .banner-des {
+        padding: 30px 10px;
+
+
+    }
+
+    .banner-info .image {
+        width: 100%;
+    }
+
+    .list-feature {
+        padding: 10px;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .list-feature-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-like {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .feature-like-des {
+        text-align: center;
+    }
+
+    .feature-like-image img {
+
+        width: 90%;
+        padding-left: 20px;
+
+    }
+
+    .image-exp {
+        padding: 15px 20px;
+        position: absolute;
+        margin: 20px 80px;
+    }
+    .image-exp h3 {
+        font-size: 45px;
+    }
+    
+    .image-exp p {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    /* .nav-tab {
+        
+        flex-direction: column;
+    } */
+    .management-info{
+        padding: 170px 20px 20px;
+    }
+    .management-team{
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    
+    .some-fact,
+    .sponsors-group-container,
+    .footer,
+    list-feature {
+        display: none;
+    }
+
+
+}
+
+
+/*---------------------------
+     make responsive 
+-------------------------------*/
