@@ -1,0 +1,366 @@
+/* ------------------------
+        common part style
+--------------------------- */
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+.common-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 23px;
+}
+
+/* -----------------------------
+      header part style 
+-------------------------------- */
+
+
+/* ----------------------
+    navigation part style 
+-------------------------*/
+
+.header-container {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.nav-tab ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-tab li {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.nav-tab li a {
+    text-decoration: none;
+    color: #424242;
+
+}
+
+/* -------------------------
+        banner part style       
+-----------------------------*/
+
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    padding: 102px 200px 32px 200px;
+}
+
+.banner-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 0 400px 32px 400px;
+
+}
+
+.image img {
+    width: 80%;
+    height: 50%;
+    padding: 50px 40px 45px 40px;
+
+}
+
+/* -----------------------------------
+            main part style 
+-------------------------------------- */
+
+/* -------------------------
+    list of features part style 
+-----------------------------*/
+.list-feature {
+    display: flex;
+    padding: 85px 240px 130px;
+    gap: 70px;
+}
+
+.list-feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.list-feature-image img {
+    width: 250px;
+    height: 250px;
+    /* width:100%; */
+}
+.list-feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-top: 110px;
+    padding-bottom: 25px;
+
+}
+
+.light {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.yellow {
+    color: #FF900E;
+}
+
+.list-feature-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 32px;
+}
+
+/* ------------------------------------
+  love and enjoy features  part style 
+---------------------------------------*/
+.feature-like {
+    display: flex;
+    padding: 0 130px;
+    gap: 55px;
+}
+
+.feature-like-info {
+    padding-top: 70px;
+}
+
+.feature-like-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 5px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.feature-like-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.down {
+    padding-left: 40px;
+}
+
+.feature-like-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    padding-top: 50px;
+
+}
+
+.feature-like-sub-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-top: 10px;
+    padding-right: 50px;
+
+}
+
+.feature-like-image img {
+    width: 600px;
+    height: 900px;
+}
+
+.image-exp {
+    background-color: #FF900E;
+    padding: 35px 45px;
+    position: absolute;
+    margin: -87px 230px 30px -65px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.image-exp h3 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.image-exp p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* ---------------------------------
+     management team part style 
+-----------------------------------*/
+
+.management{
+    text-align: center;
+}
+.management-info{
+    padding:200px 150px 150px;
+}
+.management-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 35px;
+}
+.management-des{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.management-team{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.management-team-name{
+    font-weight: 700;
+    font-size: 25px;
+    color: #131313;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.management-team-deg{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.management-team-all img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*-------------------------------
+        some fact part style 
+---------------------------------*/
+.fact-container {
+    margin: 150px 160px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 25px;
+}
+
+.fact-des {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 650px;
+    padding-bottom: 120px;
+}
+
+.fact-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+}
+
+.fact-item {
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 50px 30px;
+    transition: 1s ease;
+}
+
+.fact-item:hover {
+    transform: rotate(45deg);
+    background-color: bisque;
+}
+
+.fact-item-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    padding: 10px 0;
+}
+
+.fact-item-des {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* ----------------------------------
+      sponsors group part style
+-------------------------------------*/
+
+.sponsors-group {
+    text-align: center;
+
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 25px;
+}
+
+.sponsor-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 0 450px 50px 450px;
+}
+
+.sponsor-group-list img {
+    align-items: center;
+    padding: 20px 50px 100px 50px;
+}
+
+
+/* ----------------------------------
+            footer part style
+-------------------------------------- */
+
+.footer{
+    background: #FFF4E7;
+    border-radius: 10px;
+    margin: 40px 120px 80px;
+    padding: 40px;
+    
+}
+.footer-info{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
